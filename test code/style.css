@@ -1,0 +1,55 @@
+
+/* on travaille sur la balise body,donc sur toute la page*/
+body
+{
+	background-image: url("image/xenofond.png"); /*permet de mettre une image de fond */
+	background-attachment: fixed; /* l'image est fixe et le texte defile dessus */
+	background-repeat: repeat;
+	color: aqua; /*le texte de la page sera bleu clair */
+}
+.Titre
+{
+	text-align: center;
+	text-shadow: 6px 6px 6px black; /* permet de mettre des ombres */
+}
+/*l'attribut titre couplet a text align permet d'ajustez au milieu 5*/
+h1
+{
+	color: red;
+	text-decoration: underline; /* permet de souligner */
+}
+/* cette commande permet de rendre toute les balises h1 Rouge on peut aussi
+ pour rassembler plusieur balise en mettant une ( , ) */
+em
+{
+	color: blue;
+}
+p
+{
+	font-size: 20px; /* paragraphe de 20 pixels */
+	color: aqua;
+}
+
+.banane
+{
+	color: orange;
+}
+#logo
+{
+	/* Indiquez ici les propriétés CSS ici */ 
+}
+a
+{
+	text-decoration: none;
+	font-style: italic;
+}
+a:hover /* au survole de la souris le lien passe au vert */
+{
+	text-decoration: underline;
+	color: green;
+
+}
+a:active /* quand le visiteur clique sur le lien */
+{
+	background-color: gray;
+}
